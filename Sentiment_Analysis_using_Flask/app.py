@@ -1,5 +1,4 @@
 from flask import Flask,request,render_template,url_for
-from flasgger import Swagger
 
 # Import SentimentIntensityAnalyzer And Flask 
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
